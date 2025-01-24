@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void searchGames() {
         if (TextUtils.isEmpty(currentQuery)) {
-            Toast.makeText(this, "Please enter a search term", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Introduzca un término de búsqueda", Toast.LENGTH_SHORT).show();
             return;
         }
 
